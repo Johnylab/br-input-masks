@@ -7,6 +7,7 @@ const regex = {
   postal: /^(\d{5})-?(\d{1,3})/,
   tel: /^(\d{2})(\d{1,5})?(\d{4})?$/,
   rg: /^(\d{1,2})(\d{1,3})?(\d{1,3})?(\d)?$/,
+  iscnpj: /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{1,2})?/,
   cnpj: /^(\d{2})(\d{1,3})?(\d{1,3})?(\d{1,4})?(\d{1,2})?/,
   cpf: /^(\d{1,3})?(\d{1,3})?(\d{1,3})?(\d{1,2})?/,
   date: /^(\d\/|\d{2})\/*(\d\/|\d{2})?\/*(\d{1,4})?/,
@@ -88,7 +89,7 @@ export const cpf = val => val
     p4 ? `-${p4}` : ''
   }`);
 
-const isCNPJ = val => regex.cnpj.test(
+const isCNPJ = val => regex.iscnpj.test(
   val.replace(regex.not_digits, ''),
 );
 
