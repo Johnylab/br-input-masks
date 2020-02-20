@@ -15,8 +15,7 @@ const regex = {
 
 export const name = val => val
   .replace(regex.not_alpha, '')
-  .replace(regex.spaces, ' ')
-  .toUpperCase();
+  .replace(regex.spaces, ' ');
 
 export const postalCode = val => val
   .replace(regex.not_digits, '')
@@ -119,5 +118,3 @@ export const date = val => val
     yyyy ? `/${yyyy}` : ''
   }`)
   .substr(0, 10);
-
-export const email = val => val.toLowerCase();

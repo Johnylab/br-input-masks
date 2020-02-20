@@ -1,15 +1,26 @@
 {
-  "name": "masks",
-  "version": "1.0.0",
+  "name": "br-input-masks",
+  "version": "1.0.1",
+  "description": "Brazilian specific form input masks.",
   "main": "index.js",
-  "license": "MIT",
-  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "parcel *.html",
-    "build": "parcel build src/index.js --out-file index.min.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.3"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnylab/inputmasks.git"
+  },
+  "keywords": [
+    "form",
+    "input",
+    "masks"
+  ],
+  "author": "João Ferreira @johnylab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Johnylab/inputmasks/issues"
+  },
+  "homepage": "https://github.com/Johnylab/inputmasks#readme"
 }
