@@ -1,6 +1,6 @@
 {
   "name": "br-input-masks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Brazilian specific form input masks.",
   "main": "index.js",
   "dependencies": {},
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Johnylab/inputmasks.git"
+    "url": "git+https://github.com/Johnylab/br-input-masks.git"
   },
   "keywords": [
     "form",
@@ -20,7 +20,7 @@
   "author": "João Ferreira @johnylab",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Johnylab/inputmasks/issues"
+    "url": "https://github.com/Johnylab/br-input-masks/issues"
   },
-  "homepage": "https://github.com/Johnylab/inputmasks#readme"
+  "homepage": "https://github.com/Johnylab/br-input-masks#readme"
 }
