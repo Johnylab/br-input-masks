@@ -1,6 +1,6 @@
 {
   "name": "br-input-masks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Brazilian specific form input masks.",
   "main": "index.js",
   "dependencies": {},

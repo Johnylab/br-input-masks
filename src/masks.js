@@ -17,10 +17,15 @@ export const name = val => val
   .replace(regex.not_alpha, '')
   .replace(regex.spaces, ' ');
 
+export const number = val => val
+  .replace(regex.not_digits, '');
+
 export const postalCode = val => val
   .replace(regex.not_digits, '')
   .substr(0, 8)
   .replace(regex.postal, '$1-$2');
+
+export const cep = postalCode;
 
 export const tel = val => val
   .replace(regex.not_digits, '')
